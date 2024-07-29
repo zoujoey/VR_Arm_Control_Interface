@@ -1,0 +1,18 @@
+{
+    "name": "VR Robot Arm Control Unity ROS",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "star",
+    "workspaceFolder": "/volume",
+    "shutdownAction": "stopCompose",
+    "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
+    "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cmake-tools",
+        "mutantdino.resourcemonitor",
+        "ms-azuretools.vscode-docker",
+        "nvidia.nsight-vscode-edition",
+        "ms-python.python",
+        "GitHub.copilot",
+        "ms-vscode.cpptools-extension-pack"
+    ]
+}
